@@ -1,0 +1,73 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    color:rgba(0, 0, 0, 0.76)
+}
+
+.carousel {
+    background-color: gainsboro;
+    padding: 9rem;
+}
+
+.header-contact {
+    border-top: solid black 2px;
+    padding: .5rem;
+    text-align: left;
+}
+
+.header-wanted {
+    margin: 3rem;
+    text-align: center;
+}
+
+.articles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article {
+    background-color: gainsboro;
+    margin: 1rem;
+    height: 25rem;
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    align-items: center;
+    justify-content: center;
+    margin: .5rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.76);
+}
+
+ul {
+    list-style: none;
+    padding-left: .5rem;
+    margin-bottom: 0;
+}
+
+li {
+    color: rgba(255, 255, 255, 0.836);
+    display: inline-block;
+    padding: .5rem;
+}
+
+li.active {
+    background-color: gainsboro;
+    color: rgba(0, 0, 0, 0.678);
+    border: solid grey .5px;
+}
+
+span {
+    font-size: 18px;
+}
